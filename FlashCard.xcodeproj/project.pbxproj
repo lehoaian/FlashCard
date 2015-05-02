@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E80CC6A01AF4CC5000D137CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CC69F1AF4CC5000D137CB /* AppDelegate.m */; };
+		E80CC6A21AF4CC5000D137CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CC6A11AF4CC5000D137CB /* main.m */; };
+		E80CC6A51AF4CC5000D137CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CC6A41AF4CC5000D137CB /* ViewController.m */; };
+		E80CC6A71AF4CC5000D137CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80CC6A61AF4CC5000D137CB /* Images.xcassets */; };
+		E80CC6AA1AF4CC5000D137CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80CC6A81AF4CC5000D137CB /* Main.storyboard */; };
+		E80CC6B61AF4CC5000D137CB /* FlashCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E80CC6B51AF4CC5000D137CB /* FlashCardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E80CC6B01AF4CC5000D137CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E80CC6911AF4CC5000D137CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E80CC6981AF4CC5000D137CB;
+			remoteInfo = FlashCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E80CC6991AF4CC5000D137CB /* FlashCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80CC69D1AF4CC5000D137CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80CC69E1AF4CC5000D137CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E80CC69F1AF4CC5000D137CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E80CC6A11AF4CC5000D137CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E80CC6A31AF4CC5000D137CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E80CC6A41AF4CC5000D137CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E80CC6A61AF4CC5000D137CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E80CC6A91AF4CC5000D137CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E80CC6AF1AF4CC5000D137CB /* FlashCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlashCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80CC6B41AF4CC5000D137CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80CC6B51AF4CC5000D137CB /* FlashCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlashCardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E80CC6961AF4CC5000D137CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80CC6AC1AF4CC5000D137CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E80CC6901AF4CC5000D137CB = {
+			isa = PBXGroup;
+			children = (
+				E80CC69B1AF4CC5000D137CB /* FlashCard */,
+				E80CC6B21AF4CC5000D137CB /* FlashCardTests */,
+				E80CC69A1AF4CC5000D137CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E80CC69A1AF4CC5000D137CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E80CC6991AF4CC5000D137CB /* FlashCard.app */,
+				E80CC6AF1AF4CC5000D137CB /* FlashCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E80CC69B1AF4CC5000D137CB /* FlashCard */ = {
+			isa = PBXGroup;
+			children = (
+				E80CC69E1AF4CC5000D137CB /* AppDelegate.h */,
+				E80CC69F1AF4CC5000D137CB /* AppDelegate.m */,
+				E80CC6A31AF4CC5000D137CB /* ViewController.h */,
+				E80CC6A41AF4CC5000D137CB /* ViewController.m */,
+				E80CC6A61AF4CC5000D137CB /* Images.xcassets */,
+				E80CC6A81AF4CC5000D137CB /* Main.storyboard */,
+				E80CC69C1AF4CC5000D137CB /* Supporting Files */,
+			);
+			path = FlashCard;
+			sourceTree = "<group>";
+		};
+		E80CC69C1AF4CC5000D137CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E80CC69D1AF4CC5000D137CB /* Info.plist */,
+				E80CC6A11AF4CC5000D137CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E80CC6B21AF4CC5000D137CB /* FlashCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				E80CC6B51AF4CC5000D137CB /* FlashCardTests.m */,
+				E80CC6B31AF4CC5000D137CB /* Supporting Files */,
+			);
+			path = FlashCardTests;
+			sourceTree = "<group>";
+		};
+		E80CC6B31AF4CC5000D137CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E80CC6B41AF4CC5000D137CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E80CC6981AF4CC5000D137CB /* FlashCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80CC6B91AF4CC5000D137CB /* Build configuration list for PBXNativeTarget "FlashCard" */;
+			buildPhases = (
+				E80CC6951AF4CC5000D137CB /* Sources */,
+				E80CC6961AF4CC5000D137CB /* Frameworks */,
+				E80CC6971AF4CC5000D137CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashCard;
+			productName = FlashCard;
+			productReference = E80CC6991AF4CC5000D137CB /* FlashCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E80CC6AE1AF4CC5000D137CB /* FlashCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E80CC6BC1AF4CC5000D137CB /* Build configuration list for PBXNativeTarget "FlashCardTests" */;
+			buildPhases = (
+				E80CC6AB1AF4CC5000D137CB /* Sources */,
+				E80CC6AC1AF4CC5000D137CB /* Frameworks */,
+				E80CC6AD1AF4CC5000D137CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E80CC6B11AF4CC5000D137CB /* PBXTargetDependency */,
+			);
+			name = FlashCardTests;
+			productName = FlashCardTests;
+			productReference = E80CC6AF1AF4CC5000D137CB /* FlashCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E80CC6911AF4CC5000D137CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "An Le";
+				TargetAttributes = {
+					E80CC6981AF4CC5000D137CB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					E80CC6AE1AF4CC5000D137CB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = E80CC6981AF4CC5000D137CB;
+					};
+				};
+			};
+			buildConfigurationList = E80CC6941AF4CC5000D137CB /* Build configuration list for PBXProject "FlashCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E80CC6901AF4CC5000D137CB;
+			productRefGroup = E80CC69A1AF4CC5000D137CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E80CC6981AF4CC5000D137CB /* FlashCard */,
+				E80CC6AE1AF4CC5000D137CB /* FlashCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E80CC6971AF4CC5000D137CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80CC6A71AF4CC5000D137CB /* Images.xcassets in Resources */,
+				E80CC6AA1AF4CC5000D137CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80CC6AD1AF4CC5000D137CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E80CC6951AF4CC5000D137CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80CC6A51AF4CC5000D137CB /* ViewController.m in Sources */,
+				E80CC6A21AF4CC5000D137CB /* main.m in Sources */,
+				E80CC6A01AF4CC5000D137CB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E80CC6AB1AF4CC5000D137CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E80CC6B61AF4CC5000D137CB /* FlashCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E80CC6B11AF4CC5000D137CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E80CC6981AF4CC5000D137CB /* FlashCard */;
+			targetProxy = E80CC6B01AF4CC5000D137CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E80CC6A81AF4CC5000D137CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E80CC6A91AF4CC5000D137CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E80CC6B71AF4CC5000D137CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E80CC6B81AF4CC5000D137CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E80CC6BA1AF4CC5000D137CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlashCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E80CC6BB1AF4CC5000D137CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FlashCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E80CC6BD1AF4CC5000D137CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashCard.app/Contents/MacOS/FlashCard";
+			};
+			name = Debug;
+		};
+		E80CC6BE1AF4CC5000D137CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlashCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlashCard.app/Contents/MacOS/FlashCard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E80CC6941AF4CC5000D137CB /* Build configuration list for PBXProject "FlashCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80CC6B71AF4CC5000D137CB /* Debug */,
+				E80CC6B81AF4CC5000D137CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E80CC6B91AF4CC5000D137CB /* Build configuration list for PBXNativeTarget "FlashCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80CC6BA1AF4CC5000D137CB /* Debug */,
+				E80CC6BB1AF4CC5000D137CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E80CC6BC1AF4CC5000D137CB /* Build configuration list for PBXNativeTarget "FlashCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E80CC6BD1AF4CC5000D137CB /* Debug */,
+				E80CC6BE1AF4CC5000D137CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E80CC6911AF4CC5000D137CB /* Project object */;
+}
